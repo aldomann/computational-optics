@@ -4,7 +4,7 @@ function F = fft2shift(f)
 % of coordinates equal to the center of the matrix
 %
 % Syntax
-%   F = fft2shift(f);
+%	F = fft2shift(f);
 
 	F = fftshift( fft2 (fftshift (f) ) );
 
