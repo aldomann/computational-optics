@@ -34,5 +34,5 @@ for k=1:16
 		colormap(gray);
 		imagesc(abs(FFT));
 		axis equal tight
-		title(sprintf('FT Modulus (nu = %.2f)', Freq))
+		title(sprintf('Modulus of FT (nu = %.2f)', Freq))
 end
