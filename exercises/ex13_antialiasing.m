@@ -19,7 +19,7 @@ difPeriod = input('Introduce the period difference:  ');
 Amplitude = input('Introduce the intensity: ');
 difAmplitude = input('Introduce the intensity difference: ');
 
-L = Doblete(DimX, DimY, Period, difPeriod, Amplitude, difAmplitude);
+L = DoubleSlit(DimX, DimY, Period, difPeriod, Amplitude, difAmplitude);
 
 figure(1)
 subplot(2,2,1)
